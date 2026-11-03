@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 380" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">
+  <title>单音幅度调制频谱</title>
+  <desc>正频率频谱。载波高度 1，两侧边频高度 0.25。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="36.0" y="40.0" fill="#0f172a" font-size="22" font-weight="700" text-anchor="start">单音幅度调制频谱</text>
+  <line x1="70" y1="300.0" x2="70" y2="48" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="70" y1="300.0" x2="700" y2="300.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="58.0" y="56.0" fill="#0f172a" font-size="14" font-weight="400" text-anchor="end">幅度</text>
+  <text x="712.0" y="306.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="start">f</text>
+  <line x1="150" y1="300.0" x2="150" y2="250.0" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="150" cy="250.0" r="4" fill="#0b57d0"/>
+  <text x="150.0" y="238.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">0.25</text>
+  <text x="150.0" y="328.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="middle">f_c−f_m</text>
+  <line x1="340" y1="300.0" x2="340" y2="100.0" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="340" cy="100.0" r="4" fill="#0b57d0"/>
+  <text x="340.0" y="88.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">1</text>
+  <text x="340.0" y="328.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="middle">f_c</text>
+  <line x1="530" y1="300.0" x2="530" y2="250.0" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="530" cy="250.0" r="4" fill="#0b57d0"/>
+  <text x="530.0" y="238.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">0.25</text>
+  <text x="530.0" y="328.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="middle">f_c+f_m</text>
+</svg>

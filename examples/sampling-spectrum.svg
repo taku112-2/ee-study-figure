@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 380" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">
+  <title>抽样频谱</title>
+  <desc>抽样冲激串的频谱，三根线一样高。已抽样信号的频谱不是这三根线，而要复制原信号的形状。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="36.0" y="40.0" fill="#0f172a" font-size="22" font-weight="700" text-anchor="start">抽样冲激串的频谱</text>
+  <line x1="70" y1="250.0" x2="70" y2="70" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="70" y1="250.0" x2="680" y2="250.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="52.0" y="78.0" fill="#0f172a" font-size="14" font-weight="400" text-anchor="end">幅度</text>
+  <text x="692.0" y="256.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="start">f</text>
+  <line x1="180" y1="250.0" x2="180" y2="110" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="180" cy="110" r="4" fill="#0b57d0"/>
+  <text x="180.0" y="278.0" fill="#0f172a" font-size="16" font-weight="400" text-anchor="middle">−1/Ts</text>
+  <line x1="360" y1="250.0" x2="360" y2="110" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="360" cy="110" r="4" fill="#0b57d0"/>
+  <text x="360.0" y="278.0" fill="#0f172a" font-size="16" font-weight="400" text-anchor="middle">0</text>
+  <line x1="540" y1="250.0" x2="540" y2="110" stroke="#0b57d0" stroke-width="2.4"/>
+  <circle cx="540" cy="110" r="4" fill="#0b57d0"/>
+  <text x="540.0" y="278.0" fill="#0f172a" font-size="16" font-weight="400" text-anchor="middle">1/Ts</text>
+  <line x1="360" y1="312.0" x2="540" y2="312.0" stroke="#0f172a" stroke-width="1.4" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="450.0" y="334.0" fill="#0f172a" font-size="18" font-weight="700" text-anchor="middle">1/Ts</text>
+</svg>

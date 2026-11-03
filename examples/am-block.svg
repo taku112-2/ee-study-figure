@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 360" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">
+  <title>幅度调制框图</title>
+  <desc>幅度调制框图：消息先加直流 A，再与载波 c(t) 相乘，得到 s(t)。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="40.0" y="44.0" fill="#0f172a" font-size="22" font-weight="700" text-anchor="start">幅度调制</text>
+  <text x="168.0" y="44.0" fill="#0b57d0" font-size="18" font-weight="400" text-anchor="start">s(t) = [A + m(t)] c(t)</text>
+  <rect x="210" y="130" width="150" height="72" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.8"/>
+  <rect x="430" y="130" width="150" height="72" rx="8" fill="#ffffff" stroke="#0f172a" stroke-width="1.8"/>
+  <text x="285.0" y="172.0" fill="#0f172a" font-size="16" font-weight="400" text-anchor="middle">加直流 A</text>
+  <text x="505.0" y="172.0" fill="#0f172a" font-size="16" font-weight="400" text-anchor="middle">相乘</text>
+  <line x1="40" y1="166" x2="210" y2="166" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="360" y1="166" x2="430" y2="166" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="580" y1="166" x2="730" y2="166" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="505" y1="280" x2="505" y2="202" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="118.0" y="150.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">m(t)</text>
+  <text x="392.0" y="150.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">A+m(t)</text>
+  <text x="655.0" y="150.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="middle" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">s(t)</text>
+  <text x="468.0" y="268.0" fill="#0b57d0" font-size="16" font-weight="700" text-anchor="end" stroke="#ffffff" stroke-width="5" paint-order="stroke fill" stroke-linejoin="round">c(t)</text>
+  <text x="40.0" y="320.0" fill="#64748b" font-size="15" font-weight="400" text-anchor="start">c(t) = cos(2π f_c t)。A 是载波幅度里的直流项。</text>
+</svg>

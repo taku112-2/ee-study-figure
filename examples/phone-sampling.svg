@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 360" font-family="Microsoft YaHei, SimHei, Noto Sans CJK SC, sans-serif">
+  <title>话带抽样频谱</title>
+  <desc>话带信号抽样频谱。f_H = 3.4 kHz，f_s = 8 kHz，复制谱之间有空隙。</desc>
+  <rect width="100%" height="100%" fill="#ffffff"/>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#0f172a"/>
+    </marker>
+  </defs>
+  <text x="36.0" y="36.0" fill="#0f172a" font-size="22" font-weight="700" text-anchor="start">话带抽样频谱</text>
+  <text x="36.0" y="62.0" fill="#0b57d0" font-size="15" font-weight="400" text-anchor="start">f_H = 3.4 kHz，f_s = 8 kHz</text>
+  <line x1="60" y1="250.0" x2="60" y2="84" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <line x1="60" y1="250.0" x2="800" y2="250.0" stroke="#0f172a" stroke-width="1.8" marker-end="url(#arrow)"/>
+  <text x="48.0" y="92.0" fill="#0f172a" font-size="14" font-weight="400" text-anchor="end">幅度</text>
+  <text x="812.0" y="254.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="start">f</text>
+  <polygon points="300,250 392,170 484,250" fill="none" stroke="#0b57d0" stroke-width="2"/>
+  <polygon points="520,250 612,170 704,250" fill="none" stroke="#0b57d0" stroke-width="2"/>
+  <text x="392.0" y="274.0" fill="#0f172a" font-size="14" font-weight="400" text-anchor="middle">0</text>
+  <text x="300.0" y="274.0" fill="#0f172a" font-size="13" font-weight="400" text-anchor="middle">−3.4</text>
+  <text x="484.0" y="274.0" fill="#0f172a" font-size="13" font-weight="400" text-anchor="middle">3.4</text>
+  <text x="612.0" y="274.0" fill="#0b57d0" font-size="14" font-weight="700" text-anchor="middle">8</text>
+  <text x="392.0" y="150.0" fill="#0b57d0" font-size="14" font-weight="400" text-anchor="middle">基带</text>
+  <text x="720.0" y="150.0" fill="#0b57d0" font-size="14" font-weight="400" text-anchor="start">复制</text>
+  <text x="502.0" y="210.0" fill="#c2410c" font-size="14" font-weight="400" text-anchor="middle">空隙</text>
+  <text x="36.0" y="320.0" fill="#0f172a" font-size="15" font-weight="400" text-anchor="start">间隔 f_s = 8 kHz。每份宽度 2f_H = 6.8 kHz。8 &gt; 6.8，所以不混叠。</text>
+</svg>
